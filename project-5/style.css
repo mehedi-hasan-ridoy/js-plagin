@@ -1,0 +1,165 @@
+/*
+  Theme Name: Name :
+  Author: 
+  Support: 
+  Description: 
+  Version: 1.0
+*/
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+html,
+body {
+    height: 100%;
+}
+
+.floatleft {
+    float: left
+}
+
+.f-right {
+    float: right
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px
+}
+
+a:focus {
+    outline: 0px solid
+}
+
+img {
+    max-width: 100%;
+    height: auto
+}
+
+.fix {
+    overflow: hidden
+}
+
+p {
+    margin: 0 0 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 10px;
+}
+
+a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ec4445;
+    text-decoration: none;
+}
+
+a:active,
+a:hover {
+    outline: 0 none;
+}
+
+ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0
+}
+
+.clear {
+    clear: both
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+/* start custom css */
+
+/* header-bottom-area */
+
+.header-area{background:black;}
+.logo-area {
+    width: 197px;
+}
+.logo-area img {
+    width: 190px!important;
+    padding: 10px 0px;
+}
+
+
+.main-menu ul li{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 31px;
+    padding: 4px 0;
+    position: relative;
+}
+.main-menu ul li:first-child{
+    margin-left: 0;
+}
+.main-menu ul li a{
+    text-transform: uppercase;
+    color: #555555;
+    font-size: 15px;
+    font-weight: 400;
+}
+.main-menu ul li a:hover{
+    color: #0fb0ee;
+}
+.main-menu ul li a.active{
+    color: #0fb0ee;
+    font-weight: 700;
+}
+/* now start animation */
+.am {
+    margin: 24px 0px;
+}
+.am h2 {
+    color: red;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 4px 1px 5px #717179;
+}
+.img.col-lg-4 {
+    text-align: center;
+}
+
+.img.col-lg-4 img {
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    box-shadow: 1px 1px 7px #959191;
+}
